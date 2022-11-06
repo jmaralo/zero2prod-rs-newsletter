@@ -1,0 +1,10 @@
+[package]
+name = "newsletter"
+version = "0.1.0"
+authors = ["Juan Martinez <martinezalonsojn@gmail.com>"]
+edition = "2021"
+description = "newsletter API shown in the book Zero to Production by Luca Palmieri"
+readme = "README.md"
+repository = "github.com/jmaralo/zero2prod-rs-newshelter"
+license-file = "LICENSE"
+categories = ["email"]
