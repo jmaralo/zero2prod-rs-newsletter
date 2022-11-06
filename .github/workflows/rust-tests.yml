@@ -7,5 +7,4 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v3
-    - name: Run tests
-      run: cargo test --verbose
+    - run: cargo test --verbose

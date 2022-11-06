@@ -1,5 +1,5 @@
 name: Run linter
-run-name: ${{ github.actor }} measured code coverage
+run-name: ${{ github.actor }} ran the linter
 on: push
 
 jobs:
@@ -7,5 +7,4 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v3
-    - name: Lint
-      run: cargo clippy -- -D warnings
+    - run: cargo clippy -- -D warnings
