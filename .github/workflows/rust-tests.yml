@@ -1,4 +1,4 @@
-name: Run all defined tests
+name: Run all tests
 run-name: ${{ github.actor }} run all tests
 on: push
 

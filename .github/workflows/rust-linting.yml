@@ -1,4 +1,4 @@
-name: Measure code coverage
+name: Run linter
 run-name: ${{ github.actor }} measured code coverage
 on: push
 
