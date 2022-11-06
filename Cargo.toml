@@ -8,3 +8,5 @@ readme = "README.md"
 repository = "github.com/jmaralo/zero2prod-rs-newshelter"
 license-file = "LICENSE"
 categories = ["email"]
+
+[dependencies]
