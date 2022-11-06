@@ -1,0 +1,13 @@
+name: Run all defined tests
+run-name: ${{ github.actor }} run all tests
+on: push
+
+jobs:
+  run-tests-release:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v3
+    - name: build
+      run: cargo build --release --verbose
+    - name: Run tests
+      run: cargo test --release --verbose
